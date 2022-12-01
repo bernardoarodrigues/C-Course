@@ -1,3 +1,5 @@
+// Coded while watching: https://www.youtube.com/watch?v=87SH2Cn0s9A&t
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
@@ -130,7 +132,6 @@ int main() {
 
         printf("%f\n\n", zz);
     */
-    
 
     /*
         Augmented assignment operators = replace a statement
@@ -150,6 +151,16 @@ int main() {
         num *= 4;
         num /= 2;
         num %= 3;
+    */
+
+    /*
+        Increase/Decrease operator: adds/subtracts 1 to the number
+
+        Code:
+
+        int x = 2;
+        x++; // x = x + 1;
+        x--; // x = x - 1;
     */
 
     /* 
@@ -179,7 +190,7 @@ int main() {
 
         double A = sqrt(9);     // square root of 9
         double B = pow(2, 4);   // 2 to the power of 4
-        int C = round(3.14);    // round
+        int C = round(3.14);    // removes decimals, leaves integer
         int D = ceil(3.14);     // round up
         int E = floor(3.14);    // round down
         double F = fabs(-100);  // find absolute from 0 
